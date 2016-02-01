@@ -17,11 +17,12 @@ body {
     
 }
 
-.pantalla{}
+.pantalla{padding-top:60px;}
 .pantalla img{width:100%;margin:0px !important;display:block;}
-.pantalla .header img{height:40px;}
-.pantalla .header b{position:absolute;left:0px;top:0px;height:40px;font-size:20px;text-align:center;font-family:arial;}
-.pantalla .header img:first + img{float:right;}
+.pantalla .header{clear:both;float:left;width:100%;position:fixed;margin-top:-60px;}
+.pantalla .header img{max-width:13%;float:left;display:inline;}
+.pantalla .header b{display:block;width:74%;height:40px;font-size:20px;text-align:center;font-family:arial;float:left;margin-top:10px;}
+.pantalla .header img.i-r{float:right;margin-top:22px;}
 .pantalla .btns{position:relative;}
 .pantalla .btns button{display:block;position:absolute;height:100%;width:45%;top:0px;border:0px;opacity:0.1;background:black;}
 .pantalla .btns button.l-i{left:0px;}
