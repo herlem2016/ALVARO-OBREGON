@@ -24,8 +24,8 @@ body {
 .pantalla .header b{display:block;width:74%;height:40px;font-size:20px;text-align:center;font-family:arial;float:left;margin-top:10px;}
 .pantalla .header img.i-r{float:right;margin-top:22px;}
 .pantalla .btns{position:relative;}
-.pantalla .btns button{display:block;position:absolute;height:100%;width:45%;top:0px;border:0px;opacity:0.1;background:black;}
-.pantalla .btns button.l-i{left:0px;}
-.pantalla .btns button.l-d{right:0px;}
+.pantalla .btns button{display:block;}
+.pantalla .btns button.l-i{left:0px;opacity:0.1;background:black;position:absolute;height:100%;width:45%;top:0px;border:0px;}
+.pantalla .btns button.l-d{right:0px;opacity:0.1;background:black;position:absolute;height:100%;width:45%;top:0px;border:0px;}
 
 
